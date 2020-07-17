@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "hello..... " 
+branch=$1
+
+echo $branch
+ 
