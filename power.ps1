@@ -1,2 +1,7 @@
-$argument = $args[0]
-Write-Host $argument
+param(
+        [Parameter(Mandatory=$true)]
+        [string]
+        $branch
+)
+$argument
+Write-Host $branch
