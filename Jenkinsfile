@@ -7,6 +7,7 @@ pipeline {
           agent {
             docker {
               image 'maven:3.3.9-jdk-8'
+              args '-u 0:0'
             }
 
           }
@@ -23,6 +24,7 @@ touch "target/server.war"'''
           agent {
             docker {
               image 'node:6'
+              args '-u 0:0'
             }
 
           }
