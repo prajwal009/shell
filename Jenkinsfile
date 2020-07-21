@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         sh '''echo "hello"
-sudo touch /home/ubuntu/haha.txt'''
+touch /home/ubuntu/haha.txt'''
       }
     }
 
